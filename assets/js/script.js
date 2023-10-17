@@ -235,7 +235,7 @@ if ('addEventListener' in window) {
     document.onmousedown = clickIE4;
   } document.oncontextmenu = new Function("return false")
 
-  document.onkeydown = function(e) {
+document.onkeydown = function(e) {
     if(event.keyCode == 123) {
         return false;
     }
